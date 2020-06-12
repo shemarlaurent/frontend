@@ -1,0 +1,187 @@
+.checkout {
+  .headline {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #1b2125;
+
+    .italic {
+      font-style: italic;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  #cc-wizard {
+    .cc-wizard-section {
+      margin: 45px auto;
+
+      .cc-card {
+        background: #ffffff;
+        padding: 10px;
+        @media (max-width: 768px) {
+          padding: 10px 0;
+        }
+        .option {
+          background: #ffffff;
+          border: 1px solid #dde3e8;
+          box-sizing: border-box;
+          border-radius: 3px;
+          padding: 30px 40px;
+          .listing {
+            .list-item {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 26px;
+              color: #788995;
+            }
+          }
+          .option-link {
+            font-style: italic;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 24px;
+            color: #0095f8;
+            margin-right: 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            @apply flex items-center;
+          }
+          .cc-label-name {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            /* identical to box height */
+
+            color: #1b2125;
+          }
+          .descr {
+            @apply block font-light;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #788995;
+            padding-left: 17px;
+          }
+
+          .headline {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #1b2125;
+          }
+
+          .cc-label-price {
+            font-style: italic;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 20px;
+            /* identical to box height */
+
+            color: #1b2125;
+          }
+        }
+      }
+
+      .cc-label {
+        font-style: italic;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+        text-transform: uppercase;
+        color: #d4d9dd;
+      }
+
+      .cc-form {
+        .cc-form-control {
+          display: block;
+          padding: 7px;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 20px;
+          color: #788995;
+          .cc-form-control-input-group {
+            background: #ffffff;
+            border: 1px solid #dde3e8;
+            box-sizing: border-box;
+            display: block;
+            border-radius: 3px;
+
+            .input-group-control {
+              padding: 12px;
+              display: block;
+            }
+
+            .cc-num {
+              padding-left: 12px;
+              @apply flex flex-no-wrap w-full;
+              .input-group-control {
+                padding: 12px 0;
+                @media (min-width: 768px) {
+                  width: calc((100% / 4) / 2);
+                }
+                width: 100%;
+                max-width: calc((100% / 4));
+              }
+            }
+          }
+          .cc-form-control-input-group:focus,
+          .cc-form-control-input-group:focus-within,
+          .cc-form-control-input-group:hover {
+            background: #ffffff;
+            border: 1px solid #71b6ef;
+            box-sizing: border-box;
+            border-radius: 3px;
+          }
+          .input-group-btn {
+            font-style: italic;
+            font-weight: 300;
+            padding: 12px 2px;
+            text-transform: uppercase;
+            color: #0095f8;
+          }
+
+          .cc-form-control-input {
+            background: #ffffff;
+            border: 1px solid #dde3e8;
+            box-sizing: border-box;
+            border-radius: 3px;
+            padding: 12px;
+            width: 100%;
+            display: block;
+
+            &::placeholder {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              color: #788995;
+            }
+          }
+        }
+      }
+
+      .cc-wizard-btn {
+        background: #0000ff;
+        box-shadow: 0px 2px 7px rgba(120, 137, 149, 0.254784);
+        border-radius: 3px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+    }
+  }
+}

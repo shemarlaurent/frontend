@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+<<<<<<< HEAD
+	ignorecase = true
+	precomposeunicode = true
+=======
+>>>>>>> 75925eeb51b181242f416992e65def946de32666
